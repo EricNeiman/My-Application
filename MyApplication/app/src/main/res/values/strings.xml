@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="word">Enter a word...</string>
+    <string name="enter_a_word">Enter a word...</string>
+    <string name="enter_values">Enter Values</string>
+    <string name="find_synonym">Find Synonym</string>
+    <string name="enterWord" />
+    <string name="emptyString" />
+    <string name="enterWordHint">Enter a word...</string>
+    <string name="enterSynonymHint">Enter a synonym...</string>
+    <string name="submitButton">Submit</string>
+    <string name="findSynonym">Find Synonym</string>
+    <string name="enterValuesButton">Enter Values</string>
+    <string name="findSynonymButton">Find Synonym</string>
+    <string name="enterValuesTV">Enter a word in the first field and a synonym for that word in the second field. Press Submit to add them to the database.</string>
+    <string name="enterValuesTextView">Enter a word in the first field and synonym for that word in the second field then press submit to save the pair.</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/enterValuesTV"
+        android:layout_width="match_parent"
+        android:layout_height="173dp"
+        android:text="@string/enterValuesTextView"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/word1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enterWordHint"
+        android:inputType="text"
+        android:text="@string/emptyString"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/word2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enterSynonymHint"
+        android:inputType="text"
+        android:text="@string/emptyString"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onSubmitClick"
+        android:text="@string/submitButton"
+        android:textSize="24sp" />
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/findSynonymTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/findSynonym"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:fontFamily="serif" />
+
+    <Button
+        android:id="@+id/enterValues"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="enterValueClick"
+        android:text="@string/enterValuesButton"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/enterWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enterWordHint"
+        android:inputType="text"
+        android:text="@string/emptyString"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/findSynonymButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="findSynonymClick"
+        android:text="@string/findSynonymButton"
+        android:textSize="24sp" />
+</LinearLayout>
